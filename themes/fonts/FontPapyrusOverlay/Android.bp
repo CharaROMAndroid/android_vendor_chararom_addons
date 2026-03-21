@@ -13,8 +13,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "FontUbuntuOverlay",
+    name: "FontPapyrusOverlay",
     product_specific: true,
     sdk_version: "current",
-    theme: "FontUbuntu",
+    theme: "FontPapyrus",
 }
