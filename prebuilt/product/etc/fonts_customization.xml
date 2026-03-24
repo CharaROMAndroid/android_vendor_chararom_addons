@@ -1028,6 +1028,11 @@
     <alias name="oswald-semi-bold" to="oswald" weight="600"/>
     <alias name="oswald-bold" to="oswald" weight="700"/>
 
+    <!-- Papyrus -->
+    <family customizationType="new-named-family" name="Papyrus">
+        <font weight="300" style="normal">PAPYRUS.ttf</font>
+    </family>
+
     <!-- Pinewood -->
     <family customizationType="new-named-family" name="Pinewood">
         <font weight="300" style="normal">Pinewood.ttf</font>
