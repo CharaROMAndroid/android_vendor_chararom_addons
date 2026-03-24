@@ -187,6 +187,7 @@ PRODUCT_PACKAGES += \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
     FontOswaldOverlay \
+    FontPapyrusOverlay\
     FontPlayOverlay \
     FontQuandoOverlay \
     FontRedressedOverlay \
