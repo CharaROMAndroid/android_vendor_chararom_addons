@@ -69,6 +69,21 @@
         <font weight="300" style="normal">Ampad3D2.ttf</font>
     </family>
 
+    <!-- Atkinson Hyperlegible -->
+    <family customizationType="new-named-family" name="atkinson_hyperlegible">
+        <font weight="400" style="normal">AtkinsonHyperlegible-Regular.ttf</font>
+        <font weight="400" style="italic">AtkinsonHyperlegible-Italic.ttf</font>
+        <font weight="700" style="normal">AtkinsonHyperlegible-Bold.ttf</font>
+        <font weight="700" style="italic">AtkinsonHyperlegible-BoldItalic.ttf</font>
+    </family>
+    <alias name="atkinson-regular" to="atkinson_hyperlegible" weight="400"/>
+    <alias name="atkinson-italic" to="atkinson_hyperlegible" weight="400" style="italic"/>
+    <alias name="atkinson-bold" to="atkinson_hyperlegible" weight="700"/>
+    <alias name="atkinson-bold-italic" to="atkinson_hyperlegible" weight="700" style="italic"/>
+    <alias name="atkinson-light" to="atkinson_hyperlegible" weight="300"/>
+    <alias name="atkinson-medium" to="atkinson_hyperlegible" weight="500"/>
+    <alias name="atkinson-semi-bold" to="atkinson_hyperlegible" weight="600"/>
+
     <!-- Bariol -->
     <family customizationType="new-named-family" name="bariol">
         <font weight="300" style="normal">Bariol-Regular.ttf</font>
@@ -169,6 +184,16 @@
     <!-- CRACKMAN -->
     <family customizationType="new-named-family" name="CRACKMAN">
         <font weight="300" style="normal">CRACKMAN.ttf</font>
+    </family>
+    
+    <!-- DeterminationMono -->
+    <family customizationType="new-named-family" name="DeterminationMono">
+        <font weight="300" style="normal">DeterminationMono.otf</font>
+    </family>
+
+    <!-- DeterminationSans -->
+    <family customizationType="new-named-family" name="DeterminationSans">
+        <font weight="300" style="normal">DeterminationSans.otf</font>
     </family>
 
     <!-- DiscoMidnight -->
@@ -915,6 +940,11 @@
         <font weight="300" style="normal">LowerAtmosphere.ttf</font>
     </family>
 
+    <!-- Mercy -->
+    <family customizationType="new-named-family" name="Mercy">
+        <font weight="300" style="normal">MERCY.ttf</font>
+    </family>
+
     <!-- MessingLettern -->
     <family customizationType="new-named-family" name="MessingLettern">
         <font weight="300" style="normal">MessingLettern.ttf</font>
@@ -1010,6 +1040,21 @@
     <alias name="op-sans-medium" to="op-sans" weight="500"/>
     <alias name="op-sans-bold" to="op-sans" weight="700"/>
     <alias name="op-sans-black" to="op-sans" weight="900"/>
+
+    <!-- OpenDyslexic -->
+    <family customizationType="new-named-family" name="opendyslexic">
+        <font weight="400" style="normal">OpenDyslexic-Regular.otf</font>
+        <font weight="400" style="italic">OpenDyslexic-Italic.otf</font>
+        <font weight="700" style="normal">OpenDyslexic-Bold.otf</font>
+        <font weight="700" style="italic">OpenDyslexic-Bold-Italic.otf</font>
+    </family>
+    <alias name="opendyslexic-regular" to="opendyslexic" weight="400"/>
+    <alias name="opendyslexic-italic" to="opendyslexic" weight="400" style="italic"/>
+    <alias name="opendyslexic-bold" to="opendyslexic" weight="700"/>
+    <alias name="opendyslexic-bold-italic" to="opendyslexic" weight="700" style="italic"/>
+    <alias name="opendyslexic-light" to="opendyslexic" weight="400"/>
+    <alias name="opendyslexic-medium" to="opendyslexic" weight="400"/>
+    <alias name="opendyslexic-semi-bold" to="opendyslexic" weight="700"/>
 
     <!-- Oswald -->
     <family customizationType="new-named-family" name="oswald">
@@ -1285,6 +1330,11 @@
     <!-- VTKSDURA3d -->
     <family customizationType="new-named-family" name="VTKSDURA3d">
         <font weight="300" style="normal">VTKSDURA3d.ttf</font>
+    </family>
+
+    <!-- Wingdings -->
+    <family customizationType="new-named-family" name="Wingdings">
+        <font weight="300" style="normal">wingding.ttf</font>
     </family>
 
     <!-- ZnikomitNo24 -->
