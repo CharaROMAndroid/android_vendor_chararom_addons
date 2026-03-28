@@ -165,6 +165,7 @@ PRODUCT_PACKAGES += \
     FontAccuratistOverlay \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
+    FontAtkinsonHyperlegibleOverlay\
     FontBariolOverlay \
     FontCagliostroOverlay \
     FontCoconOverlay \
@@ -186,6 +187,7 @@ PRODUCT_PACKAGES += \
     FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
+    FontOpenDyslexicOverlay\
     FontOswaldOverlay \
     FontPapyrusOverlay\
     FontPlayOverlay \

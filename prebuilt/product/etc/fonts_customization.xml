@@ -1074,7 +1074,7 @@
     <alias name="oswald-bold" to="oswald" weight="700"/>
 
     <!-- Papyrus -->
-    <family customizationType="new-named-family" name="Papyrus">
+    <family customizationType="new-named-family" name="papyrus">
         <font weight="300" style="normal">PAPYRUS.ttf</font>
     </family>
 
