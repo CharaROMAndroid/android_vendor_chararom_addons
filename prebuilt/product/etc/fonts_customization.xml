@@ -1075,7 +1075,7 @@
 
     <!-- Papyrus -->
     <family customizationType="new-named-family" name="papyrus">
-        <font weight="300" style="normal">PAPYRUS.ttf</font>
+        <font weight="400" style="normal">PAPYRUS.TTF</font>
     </family>
 
     <!-- Pinewood -->
