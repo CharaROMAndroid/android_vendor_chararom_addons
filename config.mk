@@ -185,8 +185,6 @@ PRODUCT_PACKAGES += \
     FontPapyrusOverlay\
     FontPlayOverlay \
     FontQuandoOverlay \
-    FontRecursiveCasualOverlay \
-    FontRecursiveLinearOverlay \
     FontRedressedOverlay \
     FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
