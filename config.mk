@@ -166,6 +166,8 @@ PRODUCT_PACKAGES += \
     FontComicSansOverlay \
     FontCookieRunOverlay \
     FontCoolstoryOverlay \
+    FontDeterminationMonoOverlay\
+    FontDeterminationSansOverylay\
     FontExotwoOverlay \
     FontFifa2018Overlay \
     FontGrandHotelOverlay \
@@ -174,6 +176,7 @@ PRODUCT_PACKAGES += \
     FontIBMPlexSansOverlay \
     FontLatoOverlay \
     FontLinotteOverlay \
+    FonyMercyOverylay\
     FontNokiaPureOverlay \
     FontNothingDotHeadlineOverlay \
     FontNothingDotOverlay \
@@ -196,7 +199,8 @@ PRODUCT_PACKAGES += \
     FontSonySketchOverlay \
     FontStoropiaOverlay \
     FontSurferOverlay \
-    FontUbuntuOverlay
+    FontUbuntuOverlay \
+    FontWDOverlay
 
 # Navbar styles
 PRODUCT_PACKAGES += \
