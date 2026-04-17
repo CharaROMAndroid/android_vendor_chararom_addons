@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     FontCookieRunOverlay \
     FontCoolstoryOverlay \
     FontDeterminationMonoOverlay\
-    FontDeterminationSansOverylay\
+    FontDeterminationSansOverlay\
     FontExotwoOverlay \
     FontFifa2018Overlay \
     FontGrandHotelOverlay \
@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
     FontIBMPlexSansOverlay \
     FontLatoOverlay \
     FontLinotteOverlay \
-    FonyMercyOverylay\
+    FontMercyOverylay\
     FontNokiaPureOverlay \
     FontNothingDotHeadlineOverlay \
     FontNothingDotOverlay \
