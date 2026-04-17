@@ -1335,6 +1335,8 @@
     <!-- Wingdings -->
     <family customizationType="new-named-family" name="Wingdings">
         <font weight="300" style="normal">wingding.ttf</font>
+        <font weight="400" style="normal">wingding.ttf</font>
+        <font weight="500" style="normal">wingding.ttf</font>
     </family>
 
     <!-- ZnikomitNo24 -->
