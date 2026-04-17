@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
     FontIBMPlexSansOverlay \
     FontLatoOverlay \
     FontLinotteOverlay \
-    FontMercyOverylay\
+    FontMercyOverlay\
     FontNokiaPureOverlay \
     FontNothingDotHeadlineOverlay \
     FontNothingDotOverlay \
