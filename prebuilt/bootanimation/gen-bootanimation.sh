@@ -10,7 +10,7 @@ TARDEFAULT="${6:?bootanimation.tar}"
 DESC_TXT="${7:?desc.txt}"
 SCREEN_WIDTH="${8:?screen width}"
 SCREEN_HEIGHT="${9:?screen height}"
-FPS="${10:-30}"
+FPS="3"
 SOONG_ZIP="${11:?path to soong_zip}"
 
 echo "Generating bootanimation.zip -> $OUT"
