@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
     ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
     ClockFontAmpad3D2Overlay \
+    FontAtkinsonHyperlegibleOverlay\
     ClockFontBariolOverlay \
     ClockFontBetsyFlanaganOverlay \
     ClockFontBigCheeseOverlay \
@@ -137,6 +138,7 @@ PRODUCT_PACKAGES += \
     ClockFontRobotoCondensedOverlay \
     ClockFontRomantiquesOverlay \
     ClockFontRoundheadsOverlay \
+    ClockFontRosemaryOverlay \
     ClockFontRubikOverlay \
     ClockFontSamsungOneOverlay \
     ClockFontSansSerifOverlay \
