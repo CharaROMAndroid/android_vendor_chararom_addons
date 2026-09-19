@@ -1,7 +1,7 @@
 <!--
 /**
- * Copyright (c) 2020-2022, crDroid Android Project
- * Copyright (c) 2026 CharaROM Android
+ * Copyright (c) 2019-2020, crDroid Android Project
+ * Copyright (c) 2026, CharaROM Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,16 +17,16 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.font.atkinsonhyperlegible"
+    package="com.android.theme.font.rosemary"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android"
         android:category="android.theme.customization.font"
         android:priority="1"/>
 
-    <application android:label="@string/font_atkinsonhyperlegible_overlay" android:hasCode="false">
+    <application android:label="@string/font_rosemary_overlay" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="atkinson_hyperlegible,atkinson-semi-bold,atkinson-bold,atkinson-light,atkinson-medium,atkinson-regular" />
+            android:value="rosemary,rosemary-semi-bold,rosemary-bold" />
     </application>
 </manifest>

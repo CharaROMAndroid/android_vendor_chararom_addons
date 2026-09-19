@@ -1,6 +1,6 @@
 <!--
 /**
- * Copyright (c) 2020-2022, crDroid Android Project
+ * Copyright (c) 2019-2020, crDroid Android Project
  * Copyright (c) 2026 CharaROM Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,6 +17,6 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Headline / Body font OpenDyslexic overlay -->
-    <string name="font_opendyslexic_overlay" translatable="false">OpenDyslexic</string>
+    <!-- Name of the font family to use in the default lockscreen clock -->
+    <string name="config_clockFontFamily" translatable="false">rosemary</string>
 </resources>

@@ -14,8 +14,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "FontOpenDyslexicOverlay",
+    name: "ClockFontAtkinsonHyperlegibleOverlay",
     product_specific: true,
     sdk_version: "current",
-    theme: "FontOpenDyslexic",
+    theme: "ClockFontAtkinsonHyperlegible",
 }

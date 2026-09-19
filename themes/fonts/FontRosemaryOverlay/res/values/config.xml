@@ -1,7 +1,7 @@
 <!--
 /**
  * Copyright (c) 2019-2020, crDroid Android Project
- * Copyright (c) 2026 CharaROM Android
+ * Copyright (c) 2026, CharaROM Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,13 +18,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <!-- Name of a font family to use for body text. -->
-    <string name="config_bodyFontFamily" translatable="false">DeterminationSans</string>
+    <string name="config_bodyFontFamily" translatable="false">rosemary</string>
     <!-- Name of a font family to use for medium body text. -->
-    <string name="config_bodyFontFamilyMedium" translatable="false">DeterminationSans</string>
+    <string name="config_bodyFontFamilyMedium" translatable="false">rosemary-semi-bold</string>
     <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
-    <string name="config_headlineFontFamily" translatable="false">DeterminationSans</string>
+    <string name="config_headlineFontFamily" translatable="false">rosemary</string>
     <!-- Name of the font family used for system surfaces where the font should use medium weight -->
-    <string name="config_headlineFontFamilyMedium" translatable="false">DeterminationSans</string>
+    <string name="config_headlineFontFamilyMedium" translatable="false">rosemary-bold</string>
     <!-- Name of a font family to use as light font. For theming purpose. -->
     <string name="config_lightFontFamily" translatable="false">@string/config_bodyFontFamily</string>
     <!-- Name of a font family to use as regular font. For theming purpose. -->

@@ -17,6 +17,6 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Headline / Body font OpenDyslexic overlay -->
-    <string name="font_opendyslexic_overlay" translatable="false">OpenDyslexic</string>
+     <!-- Name of the font family to use in the default lockscreen clock -->
+    <string name="config_clockFontFamily" translatable="false">atkinson_hyperlegible</string>
 </resources>
