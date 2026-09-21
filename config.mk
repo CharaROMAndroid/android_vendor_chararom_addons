@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
     ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
     ClockFontAmpad3D2Overlay \
-    ClockFontAtkinsonHyperlegibleOverlay\
+    ClockFontAtkinsonHyperlegibleOverlay \
     ClockFontBariolOverlay \
     ClockFontBetsyFlanaganOverlay \
     ClockFontBigCheeseOverlay \
@@ -216,7 +216,7 @@ PRODUCT_PACKAGES += \
     NavbarAsusOverlay \
     NavbarDoraOverlay \
     NavbarMotoLegacyOverlay \
-    NavbarMotoModernOverlay }
+    NavbarMotoModernOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \
     NavbarOnePlusOverlay \
