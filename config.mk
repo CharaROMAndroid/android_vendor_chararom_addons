@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
     FontRookeryOverlay \
+    FontRosemaryOverlay \
     FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
