@@ -1,0 +1,27 @@
+// SPDX-FileCopyrightText: 2026 CharaROM Android
+// SPDX-License-Identifier: Apache-2.0
+
+package {
+    default_applicable_licenses: ["chararom_pdfviewer_license"],
+}
+
+license {
+    name: "chararom_pdfviewer_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-MIT",
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: ["LICENSE", "PDFJS_LICENSE"],
+}
+
+android_app_import {
+    name: "PdfViewer",
+    apk: "app-release-unsigned.apk",
+    default_dev_cert: true,
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
