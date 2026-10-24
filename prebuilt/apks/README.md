@@ -1,8 +1,19 @@
 # CharaROM Prebuilt APKs
 
-This is a Git Lfs project. All APKs in this repository are considered as Lfs pointers
-to reduce the size of the whole repository.
+These applications live in `vendor/addons/prebuilt/apks`. Their original Git
+history is preserved by the subtree import into the addons repository.
 
-## Prerequesites
+APKs are stored with Git LFS. Install Git LFS before syncing or committing.
+If a checkout contains pointer files instead of APK archives, run these commands
+from the addons repository before building:
 
-Please make sure you have **git-lfs** installed on your computer before committing to the project.
+```sh
+git lfs install --local
+git lfs pull
+```
+
+The product configuration inherits `vendor/addons/prebuilt/apks/config/common.mk`.
+Blueprint APK and XML paths remain relative to their application directories.
+`MINIMAL_APPS=true` continues to omit OpenKeychain and Ntfy.
+
+APKs are versioned inputs. The Android build does not download or update them.
