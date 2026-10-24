@@ -1,0 +1,31 @@
+Source: https://github.com/GrapheneOS/PdfViewer
+Upstream commit: bbe049314d8c29b7554587bf39efde67cc9f0e03
+Version: 34; package: app.grapheneos.pdfviewer
+
+Built from the unmodified upstream checkout with Node.js 24.14.1, npm 11.11.0,
+JDK 17.0.20.1, Android SDK platform 37.0 and build-tools 37.0.0.
+The repository's Gradle wrapper pins Gradle 9.6.1 and verifies its checksum.
+
+Rebuild in a separate source checkout:
+    git clone https://github.com/GrapheneOS/PdfViewer
+    cd PdfViewer
+    git checkout bbe049314d8c29b7554587bf39efde67cc9f0e03
+    npm ci
+    JAVA_HOME=/path/to/jdk17 ANDROID_HOME=/path/to/android-sdk ./gradlew --no-daemon assembleRelease
+    npm test
+
+Copy app/build/outputs/apk/release/app-release-unsigned.apk here.
+Do not provide keystore.properties; this prebuilt is intentionally unsigned.
+Soong uses the product's default development certificate, matching ESpeakNG's
+existing convention. The normal CharaROM release-signing flow must map this
+certificate to the ROM release key. Do not use PRESIGNED or the platform key.
+
+The app requests no dangerous or network permissions and registers an
+application/pdf VIEW intent filter. AndroidX adds an app-private signature
+permission for non-exported receivers. No default-handler or permission XML
+is needed for this swap.
+MIT LICENSE and Apache-2.0 PDFJS_LICENSE are copied unchanged from upstream.
+
+npm audit reported one high-severity dev-tool dependency, brace-expansion,
+used by the ESLint/minimatch tooling. The upstream lockfile was not changed.
+No emulator/device instrumentation tests or complete ROM build were performed.
