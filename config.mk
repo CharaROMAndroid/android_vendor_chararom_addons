@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
     ClockFontAmpad3D2Overlay \
-    FontAtkinsonHyperlegibleOverlay\
+    ClockFontAtkinsonHyperlegibleOverlay \
     ClockFontBariolOverlay \
     ClockFontBetsyFlanaganOverlay \
     ClockFontBigCheeseOverlay \
@@ -196,6 +196,7 @@ PRODUCT_PACKAGES += \
     FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
     FontRookeryOverlay \
+    FontRosemaryOverlay \
     FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
@@ -210,7 +211,8 @@ PRODUCT_PACKAGES += \
     NavbarAndroidOverlay \
     NavbarAsusOverlay \
     NavbarDoraOverlay \
-    NavbarMotoOverlay \
+    NavbarMotoLegacyOverlay \
+    NavbarMotoModernOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \
     NavbarOnePlusOverlay \
