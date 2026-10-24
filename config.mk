@@ -1,4 +1,6 @@
 # Copyright (C) 2017-2025 crDroid Android Project
+# Copyright (C) 2025 E FOUNDATION
+# Copyright (C) 2026 CharaROM Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -226,3 +228,21 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/addons/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+# Prebuilt applications
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/%
+
+PRODUCT_PACKAGES += \
+    Datura \
+    FakeSafetyCore \
+    FakeKeyVerifier
+
+# Optional applications
+MINIMAL_APPS ?= false
+
+ifeq ($(MINIMAL_APPS),false)
+PRODUCT_PACKAGES += \
+    ESpeakNG \
+    Talkback
+endif

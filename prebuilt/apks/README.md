@@ -12,8 +12,8 @@ git lfs install --local
 git lfs pull
 ```
 
-The product configuration inherits `vendor/addons/prebuilt/apks/config/common.mk`.
+The product configuration inherits `vendor/addons/config.mk`, which includes
+the prebuilt application package list.
 Blueprint APK and XML paths remain relative to their application directories.
-`MINIMAL_APPS=true` continues to omit OpenKeychain and Ntfy.
 
 APKs are versioned inputs. The Android build does not download or update them.
